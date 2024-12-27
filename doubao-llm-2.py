@@ -20,7 +20,7 @@ client = Ark(base_url="https://ark.cn-beijing.volces.com/api/v3", api_key=APIKEY
     
 num = 500000
 
-def startProcess(logFile):
+def startProcess(logFile, pid):
     print(f'start processing with num : {num}')
     time_start = time.time()
     
@@ -115,7 +115,8 @@ def startProcess(logFile):
         if i % 100 == 0:
             with open(logFile, 'a') as f:
                 f.write(f'{i}/{num} is processed \n')
-        print(f'{i}/{num} is processed ')
+        if i % 10 == 0:
+                print(f'{i}/{num} is processed in pid {pid}')
 
     time_end = time.time()
     print(f'开始时间：{time_start}', end="\n")
@@ -339,6 +340,6 @@ if __name__ == "__main__":
     with open(logFile, 'w') as f:
         f.write(f'{datetime.datetime.now()} start processing\n')
 
-    startProcess(logFile)
+    startProcess(logFile, pid)
     
             
