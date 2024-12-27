@@ -11,15 +11,16 @@ from pprint import pprint
 import time
 import random
 import os
+import datetime
 
 
-ENDPOINT = '？？？？？？？'
-APIKEY = '？？？？？？？'
+ENDPOINT = 'ep-20240703070454-jknm5'
+APIKEY = 'db2291c9-f7de-4894-8b58-b3598ed6bc26'
 client = Ark(base_url="https://ark.cn-beijing.volces.com/api/v3", api_key=APIKEY)
     
 num = 500000
 
-def startProcess():
+def startProcess(logFile):
     print(f'start processing with num : {num}')
     time_start = time.time()
     
@@ -99,13 +100,21 @@ def startProcess():
     sysPrompts = [sysPrompt1, sysPrompt2, sysPrompt3, sysPrompt4]
 
     for i in range(1, num+1):
-        sysPrompt = sysPrompts[random.randint(0, len(sysPrompts) - 1)]
-        text = '生产流程不及格，导致产品出现质量问题。生产流程不及格，导致产品出现质量问题。' #
-        randomTimes = random.randint(1, 1000)
-        text1 = text * randomTimes
-        webContent = page.replace('TTTTTTTTTT', text1)
-        companyInfo = standardRequest(sysPrompt, webContent)
-        time.sleep(2)
+        try:
+            sysPrompt = sysPrompts[random.randint(0, len(sysPrompts) - 1)]
+            text = '生产流程不及格，导致产品出现质量问题。生产流程不及格，导致产品出现质量问题。' #
+            randomTimes = random.randint(1, 1000)
+            text1 = text * randomTimes
+            webContent = page.replace('TTTTTTTTTT', text1)
+            companyInfo = standardRequest(sysPrompt, webContent)
+            time.sleep(2)
+        except Exception as e:
+            with open(logFile, 'a') as f:
+                f.write(f'try {i} failed with error: {e}\n')
+            continue
+        if i % 100 == 0:
+            with open(logFile, 'a') as f:
+                f.write(f'{i}/{num} is processed \n')
         print(f'{i}/{num} is processed ')
 
     time_end = time.time()
@@ -321,7 +330,15 @@ page = """
 """
 
 if __name__ == "__main__":
+    # get pid
+    pid = os.getpid()
 
-    startProcess()
+    # create log file named by pid
+    logFile = f'log-{pid}.txt'
+    print(f'log file is {logFile}')
+    with open(logFile, 'w') as f:
+        f.write(f'{datetime.datetime.now()} start processing\n')
+
+    startProcess(logFile)
     
             
