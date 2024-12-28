@@ -1,0 +1,103 @@
+2024-12-27 23:19:58.291920 start processing
+100/500000 is processed 
+200/500000 is processed 
+300/500000 is processed 
+400/500000 is processed 
+500/500000 is processed 
+600/500000 is processed 
+700/500000 is processed 
+800/500000 is processed 
+900/500000 is processed 
+1000/500000 is processed 
+1100/500000 is processed 
+1200/500000 is processed 
+1300/500000 is processed 
+1400/500000 is processed 
+1500/500000 is processed 
+1600/500000 is processed 
+1700/500000 is processed 
+1800/500000 is processed 
+1900/500000 is processed 
+2000/500000 is processed 
+2100/500000 is processed 
+2200/500000 is processed 
+2300/500000 is processed 
+2400/500000 is processed 
+2500/500000 is processed 
+2600/500000 is processed 
+2700/500000 is processed 
+2800/500000 is processed 
+2900/500000 is processed 
+3000/500000 is processed 
+3100/500000 is processed 
+3200/500000 is processed 
+3300/500000 is processed 
+3400/500000 is processed 
+3500/500000 is processed 
+3600/500000 is processed 
+3700/500000 is processed 
+3800/500000 is processed 
+3900/500000 is processed 
+4000/500000 is processed 
+4100/500000 is processed 
+4200/500000 is processed 
+4300/500000 is processed 
+4400/500000 is processed 
+4500/500000 is processed 
+4600/500000 is processed 
+4700/500000 is processed 
+try 4750 failed with error: Error code: 429 - {'error': {'code': 'ModelAccountTpmRateLimitExceeded', 'message': 'TPM (Tokens Per Minute) limit of the model is exceeded Request id: 021735322149814eda9dd012fc70fe89489c2feb3062383b10041', 'param': '', 'type': 'TooManyRequests'}}, request_id: 202412280455518fLK69mgOQVGZeKtbu21
+4800/500000 is processed 
+try 4862 failed with error: Error code: 429 - {'error': {'code': 'ModelAccountTpmRateLimitExceeded', 'message': 'TPM (Tokens Per Minute) limit of the model is exceeded Request id: 021735322539234eda9dd012fc70fe89489c2feb3062383124ada', 'param': '', 'type': 'TooManyRequests'}}, request_id: 20241228050220NJqE10odMvZ4HtWKg0CF
+try 4880 failed with error: Error code: 429 - {'error': {'code': 'ModelAccountTpmRateLimitExceeded', 'message': 'TPM (Tokens Per Minute) limit of the model is exceeded Request id: 021735322599598eda9dd012fc70fe89489c2feb306238371e9e5', 'param': '', 'type': 'TooManyRequests'}}, request_id: 20241228050321G2PFpbElOHKwxQVS3vDN
+4900/500000 is processed 
+try 4967 failed with error: Error code: 429 - {'error': {'code': 'ModelAccountTpmRateLimitExceeded', 'message': 'TPM (Tokens Per Minute) limit of the model is exceeded Request id: 021735322899488eda9dd012fc70fe89489c2feb3062383a1c012', 'param': '', 'type': 'TooManyRequests'}}, request_id: 20241228050820WrXDQ0wVWgTdYLfeUHxq
+5000/500000 is processed 
+5100/500000 is processed 
+5200/500000 is processed 
+5300/500000 is processed 
+5400/500000 is processed 
+5500/500000 is processed 
+5600/500000 is processed 
+try 5670 failed with error: Error code: 429 - {'error': {'code': 'ModelAccountTpmRateLimitExceeded', 'message': 'TPM (Tokens Per Minute) limit of the model is exceeded Request id: 021735326338868f7a362ffabc8a5f22f2370ab60a301c9b89af8', 'param': '', 'type': 'TooManyRequests'}}, request_id: 20241228060540wVo31QOHpvoLExJzBmRT
+try 5675 failed with error: Error code: 429 - {'error': {'code': 'ModelAccountTpmRateLimitExceeded', 'message': 'TPM (Tokens Per Minute) limit of the model is exceeded Request id: 021735326358652f7a362ffabc8a5f22f2370ab60a301c9844988', 'param': '', 'type': 'TooManyRequests'}}, request_id: 202412280606001dAieMqSNfM4QZoBllIh
+try 5694 failed with error: Error code: 429 - {'error': {'code': 'ModelAccountTpmRateLimitExceeded', 'message': 'TPM (Tokens Per Minute) limit of the model is exceeded Request id: 021735326419309f7a362ffabc8a5f22f2370ab60a301c98a481a', 'param': '', 'type': 'TooManyRequests'}}, request_id: 20241228060700fCViGF6xeUrXrbAghut7
+5700/500000 is processed 
+try 5711 failed with error: Error code: 429 - {'error': {'code': 'ModelAccountTpmRateLimitExceeded', 'message': 'TPM (Tokens Per Minute) limit of the model is exceeded Request id: 021735326479197f7a362ffabc8a5f22f2370ab60a301c9ad21f3', 'param': '', 'type': 'TooManyRequests'}}, request_id: 202412280608009AmXuHFwLl3ZnVRsLa7I
+try 5745 failed with error: Error code: 429 - {'error': {'code': 'ModelAccountTpmRateLimitExceeded', 'message': 'TPM (Tokens Per Minute) limit of the model is exceeded Request id: 021735326597024f7a362ffabc8a5f22f2370ab60a301c9b26091', 'param': '', 'type': 'TooManyRequests'}}, request_id: 20241228060958mrcU0HIa9yknk3ln0145
+try 5746 failed with error: Error code: 429 - {'error': {'code': 'ModelAccountTpmRateLimitExceeded', 'message': 'TPM (Tokens Per Minute) limit of the model is exceeded Request id: 021735326599719f7a362ffabc8a5f22f2370ab60a301c911851d', 'param': '', 'type': 'TooManyRequests'}}, request_id: 202412280610018Dwa6exozIzfOJ0OxAlJ
+try 5764 failed with error: Error code: 429 - {'error': {'code': 'ModelAccountTpmRateLimitExceeded', 'message': 'TPM (Tokens Per Minute) limit of the model is exceeded Request id: 021735326658781f7a362ffabc8a5f22f2370ab60a301c99a44fb', 'param': '', 'type': 'TooManyRequests'}}, request_id: 20241228061100u2l8eiaDMKR7eJYaE3Bp
+try 5781 failed with error: Error code: 429 - {'error': {'code': 'ModelAccountTpmRateLimitExceeded', 'message': 'TPM (Tokens Per Minute) limit of the model is exceeded Request id: 021735326718577f7a362ffabc8a5f22f2370ab60a301c985ab9f', 'param': '', 'type': 'TooManyRequests'}}, request_id: 20241228061200chpJMkUN4kHBykCjz6KD
+try 5799 failed with error: Error code: 429 - {'error': {'code': 'ModelAccountTpmRateLimitExceeded', 'message': 'TPM (Tokens Per Minute) limit of the model is exceeded Request id: 021735326778923f7a362ffabc8a5f22f2370ab60a301c922053e', 'param': '', 'type': 'TooManyRequests'}}, request_id: 20241228061300zLW8Ze31s20hJ7Mwgr2b
+5800/500000 is processed 
+try 5817 failed with error: Error code: 429 - {'error': {'code': 'ModelAccountTpmRateLimitExceeded', 'message': 'TPM (Tokens Per Minute) limit of the model is exceeded Request id: 021735326839077f7a362ffabc8a5f22f2370ab60a301c9dc50c3', 'param': '', 'type': 'TooManyRequests'}}, request_id: 20241228061400OzO4wNtK0kCmtJACkhcw
+try 5851 failed with error: Error code: 429 - {'error': {'code': 'ModelAccountTpmRateLimitExceeded', 'message': 'TPM (Tokens Per Minute) limit of the model is exceeded Request id: 021735326958242f7a362ffabc8a5f22f2370ab60a301c97d7dd7', 'param': '', 'type': 'TooManyRequests'}}, request_id: 202412280615598BuLgX9gycjjRaK4Q998
+try 5868 failed with error: Error code: 429 - {'error': {'code': 'ModelAccountTpmRateLimitExceeded', 'message': 'TPM (Tokens Per Minute) limit of the model is exceeded Request id: 021735327019451f7a362ffabc8a5f22f2370ab60a301c95aa45c', 'param': '', 'type': 'TooManyRequests'}}, request_id: 20241228061700VbdtJNbEkKOMNvSidIm4
+try 5886 failed with error: Error code: 429 - {'error': {'code': 'ModelAccountTpmRateLimitExceeded', 'message': 'TPM (Tokens Per Minute) limit of the model is exceeded Request id: 021735327079782f7a362ffabc8a5f22f2370ab60a301c9216594', 'param': '', 'type': 'TooManyRequests'}}, request_id: 20241228061801SMejNhLWA7B3yl9NQsNf
+5900/500000 is processed 
+try 5904 failed with error: Error code: 429 - {'error': {'code': 'ModelAccountTpmRateLimitExceeded', 'message': 'TPM (Tokens Per Minute) limit of the model is exceeded Request id: 021735327139032f7a362ffabc8a5f22f2370ab60a301c9133826', 'param': '', 'type': 'TooManyRequests'}}, request_id: 20241228061900TfAjxMyM7GnkLT08WSoJ
+try 5922 failed with error: Error code: 429 - {'error': {'code': 'ModelAccountTpmRateLimitExceeded', 'message': 'TPM (Tokens Per Minute) limit of the model is exceeded Request id: 021735327199442f7a362ffabc8a5f22f2370ab60a301c9c07780', 'param': '', 'type': 'TooManyRequests'}}, request_id: 20241228062000c1aNNjFKDNZrZ84ysVN4
+try 5940 failed with error: Error code: 429 - {'error': {'code': 'ModelAccountTpmRateLimitExceeded', 'message': 'TPM (Tokens Per Minute) limit of the model is exceeded Request id: 021735327257562f7a362ffabc8a5f22f2370ab60a301c97df074', 'param': '', 'type': 'TooManyRequests'}}, request_id: 20241228062059ELsPPYiazIa8Du5AcM3A
+try 5975 failed with error: Error code: 429 - {'error': {'code': 'ModelAccountTpmRateLimitExceeded', 'message': 'TPM (Tokens Per Minute) limit of the model is exceeded Request id: 021735327378883f7a362ffabc8a5f22f2370ab60a301c9984117', 'param': '', 'type': 'TooManyRequests'}}, request_id: 20241228062300f96EnS85JbtbwfAnZXiF
+try 5992 failed with error: Error code: 429 - {'error': {'code': 'ModelAccountTpmRateLimitExceeded', 'message': 'TPM (Tokens Per Minute) limit of the model is exceeded Request id: 021735327439288f7a362ffabc8a5f22f2370ab60a301c99cccb4', 'param': '', 'type': 'TooManyRequests'}}, request_id: 20241228062400chDvtTlxmLS5a2gGdM6s
+6000/500000 is processed 
+try 6011 failed with error: Error code: 429 - {'error': {'code': 'ModelAccountTpmRateLimitExceeded', 'message': 'TPM (Tokens Per Minute) limit of the model is exceeded Request id: 021735327499292f7a362ffabc8a5f22f2370ab60a301c9252f58', 'param': '', 'type': 'TooManyRequests'}}, request_id: 20241228062500mNbAn8PzqEAL1lMrxm1y
+try 6029 failed with error: Error code: 429 - {'error': {'code': 'ModelAccountTpmRateLimitExceeded', 'message': 'TPM (Tokens Per Minute) limit of the model is exceeded Request id: 021735327558924f7a362ffabc8a5f22f2370ab60a301c9c2e6cc', 'param': '', 'type': 'TooManyRequests'}}, request_id: 20241228062600vjotO4X6GQdZ4d4tKGg9
+try 6047 failed with error: Error code: 429 - {'error': {'code': 'ModelAccountTpmRateLimitExceeded', 'message': 'TPM (Tokens Per Minute) limit of the model is exceeded Request id: 021735327619502f7a362ffabc8a5f22f2370ab60a301c9de8e7b', 'param': '', 'type': 'TooManyRequests'}}, request_id: 202412280627011TxEmDQjt3s7rNEUPo6z
+try 6066 failed with error: Error code: 429 - {'error': {'code': 'ModelAccountTpmRateLimitExceeded', 'message': 'TPM (Tokens Per Minute) limit of the model is exceeded Request id: 021735327678830f7a362ffabc8a5f22f2370ab60a301c9b12dc7', 'param': '', 'type': 'TooManyRequests'}}, request_id: 202412280628008ldfu1Y1OemMumHKAJvA
+try 6085 failed with error: Error code: 429 - {'error': {'code': 'ModelAccountTpmRateLimitExceeded', 'message': 'TPM (Tokens Per Minute) limit of the model is exceeded Request id: 021735327739283f7a362ffabc8a5f22f2370ab60a301c9babb3a', 'param': '', 'type': 'TooManyRequests'}}, request_id: 20241228062900jkWwgPcW4R47a3L7vgCg
+6100/500000 is processed 
+try 6103 failed with error: Error code: 429 - {'error': {'code': 'ModelAccountTpmRateLimitExceeded', 'message': 'TPM (Tokens Per Minute) limit of the model is exceeded Request id: 021735327799858f7a362ffabc8a5f22f2370ab60a301c9ffc85c', 'param': '', 'type': 'TooManyRequests'}}, request_id: 20241228063001BW5Xj3AWqIdgkUTEQFqF
+try 6136 failed with error: Error code: 429 - {'error': {'code': 'ModelAccountTpmRateLimitExceeded', 'message': 'TPM (Tokens Per Minute) limit of the model is exceeded Request id: 021735327918291f7a362ffabc8a5f22f2370ab60a301c9ad01b4', 'param': '', 'type': 'TooManyRequests'}}, request_id: 20241228063159aLEo6K8BVHWfvllKyzFv
+try 6182 failed with error: Error code: 429 - {'error': {'code': 'ModelAccountTpmRateLimitExceeded', 'message': 'TPM (Tokens Per Minute) limit of the model is exceeded Request id: 0217353284994421b41ddce50374106f9832e08fc27e0aad0a8b5', 'param': '', 'type': 'TooManyRequests'}}, request_id: 20241228064141C108Qzlj1YlqOKZufp8A
+6200/500000 is processed 
+try 6258 failed with error: Error code: 429 - {'error': {'code': 'ModelAccountTpmRateLimitExceeded', 'message': 'TPM (Tokens Per Minute) limit of the model is exceeded Request id: 0217353287698181b41ddce50374106f9832e08fc27e0aac86406', 'param': '', 'type': 'TooManyRequests'}}, request_id: 20241228064611Y9tdlhI4e3uuYBYTnmUG
+try 6276 failed with error: Error code: 429 - {'error': {'code': 'ModelAccountTpmRateLimitExceeded', 'message': 'TPM (Tokens Per Minute) limit of the model is exceeded Request id: 0217353288298521b41ddce50374106f9832e08fc27e0aabd8575', 'param': '', 'type': 'TooManyRequests'}}, request_id: 20241228064711Svwl7LRRdSQ4dlc7SrEF
+try 6293 failed with error: Error code: 429 - {'error': {'code': 'ModelAccountTpmRateLimitExceeded', 'message': 'TPM (Tokens Per Minute) limit of the model is exceeded Request id: 0217353288893451b41ddce50374106f9832e08fc27e0aa9123f3', 'param': '', 'type': 'TooManyRequests'}}, request_id: 20241228064810ZOcyZbWQEN2tw3Fmvz1V
+6300/500000 is processed 
+try 6311 failed with error: Error code: 429 - {'error': {'code': 'ModelAccountTpmRateLimitExceeded', 'message': 'TPM (Tokens Per Minute) limit of the model is exceeded Request id: 0217353289498691b41ddce50374106f9832e08fc27e0aa8e0199', 'param': '', 'type': 'TooManyRequests'}}, request_id: 20241228064911SFgkYXOJpyq32F50AGAa
+try 6329 failed with error: Error code: 429 - {'error': {'code': 'ModelAccountTpmRateLimitExceeded', 'message': 'TPM (Tokens Per Minute) limit of the model is exceeded Request id: 0217353290090781b41ddce50374106f9832e08fc27e0aab5d44c', 'param': '', 'type': 'TooManyRequests'}}, request_id: 202412280650101HJqAxURwYxbNMGz68eX
+try 6381 failed with error: Error code: 429 - {'error': {'code': 'ModelAccountTpmRateLimitExceeded', 'message': 'TPM (Tokens Per Minute) limit of the model is exceeded Request id: 0217353291888241b41ddce50374106f9832e08fc27e0aa25ec09', 'param': '', 'type': 'TooManyRequests'}}, request_id: 202412280653107OeaZe9VcQA6eZbTCP98
+6400/500000 is processed 
+try 6416 failed with error: Error code: 429 - {'error': {'code': 'ModelAccountTpmRateLimitExceeded', 'message': 'TPM (Tokens Per Minute) limit of the model is exceeded Request id: 0217353293090661b41ddce50374106f9832e08fc27e0aaeac955', 'param': '', 'type': 'TooManyRequests'}}, request_id: 20241228065510s1SH6b9Dc5ZbfFMDrTcR
+try 6434 failed with error: Error code: 429 - {'error': {'code': 'ModelAccountTpmRateLimitExceeded', 'message': 'TPM (Tokens Per Minute) limit of the model is exceeded Request id: 0217353293690311b41ddce50374106f9832e08fc27e0aa238795', 'param': '', 'type': 'TooManyRequests'}}, request_id: 20241228065610F819cdAuzP84mjuyxEKo
