@@ -14,7 +14,7 @@ import os
 import datetime
 
 
-ENDPOINT = 'ep-20241228233545-lqx4r'
+ENDPOINT = 'ep-20241230121352-d2hlh'
 APIKEY = 'db2291c9-f7de-4894-8b58-b3598ed6bc26'
 client = Ark(base_url="https://ark.cn-beijing.volces.com/api/v3", api_key=APIKEY)
     
